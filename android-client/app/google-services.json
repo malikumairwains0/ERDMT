@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877437530690",
+    "project_id": "erdmt-8afcd",
+    "storage_bucket": "erdmt-8afcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877437530690:android:f94a04935bd24227a7b3db",
+        "android_client_info": {
+          "package_name": "com.erdmt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD53Dur3blXngTvfslSVku5AOh3W5pc6D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

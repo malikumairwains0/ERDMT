@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.erdmt.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/erdmt/MainActivity.java"
+                            line="12"
+                            column="32"
+                            startOffset="351"
+                            endLine="12"
+                            endColumn="99"
+                            endOffset="418"/>
+                    </map>
+            </map>
+    </map>
+    <map id="NotificationPermission">
+        <entry
+            name="className"
+            string="com/google/firebase/messaging/DisplayNotification"/>
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/8.14.1/transforms/c53405e6bf68a35dac7b9308fe8f6545/transformed/jetified-firebase-messaging-23.4.1/jars/classes.jar"/>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="layout[activity_main(D)],style[Theme_AppCompat_Light_NoActionBar(R)];;;;"/>
+        <location id="R.layout.activity_main"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="4"
+            endColumn="44"
+            endOffset="226"/>
+    </map>
+
+</incidents>
