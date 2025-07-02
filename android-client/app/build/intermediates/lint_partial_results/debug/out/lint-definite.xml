@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="26"
+            column="20"
+            startOffset="473"
+            endLine="26"
+            endColumn="56"
+            endOffset="509"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.2 is available: 33.16.0">
+        <fix-replace
+            description="Change to 33.16.0"
+            family="Update versions"
+            oldString="32.7.2"
+            replacement="33.16.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="27"
+            column="29"
+            startOffset="538"
+            endLine="27"
+            endColumn="70"
+            endOffset="579"/>
+    </incident>
+
+</incidents>
